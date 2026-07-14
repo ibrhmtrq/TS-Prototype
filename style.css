@@ -15,9 +15,9 @@ html, body {
   justify-content: center;
 }
 
-button {
+shopdirect {
   font-family: 'Nunito', sans-serif;
-  font-style: bold;
+  font-weight: bold;
   color: rgb(250, 226, 145);
   background-color: rgb(33, 32, 31);
   /* border-color: rgb(191, 78, 48); */
@@ -25,9 +25,9 @@ button {
   border-width: 0rem;
 }
 
-button:hover {
+shopdirect:hover {
   font-family: 'Nunito', sans-serif;
-  font-style: bold;
+  font-weight: bold;
   color: rgb(250, 226, 145);
   background-color: rgb(50, 50, 50);
   /*border-color: rgb(252, 191, 73); */
