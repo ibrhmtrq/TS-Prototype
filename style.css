@@ -6,7 +6,7 @@ html, body {
   background: white;
 }
 .shopdirect {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Enriqueta', serif;
   color: rgb(250, 226, 145);
   text-align: center; 
   background-color: rgb(33, 32, 31);
@@ -16,7 +16,7 @@ html, body {
   padding-bottom: 2vw;
 }
 .shopdirect h1{
-  font-family: 'Noto Serif', serif;
+  font-family: 'Enriqueta', serif;
   text-align: center; 
   font-weight: lighter;
   font-size: 1rem;
@@ -24,7 +24,7 @@ html, body {
 }
 
 .shopdirect:hover {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Enriqueta', serif;
   font-weight: lighter;
   color: rgb(250, 226, 145);
   background-color: rgb(50, 50, 50);
