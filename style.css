@@ -8,6 +8,7 @@ html, body {
 .shopdirect {
   font-family: 'Noto Serif', serif;
   color: rgb(250, 226, 145);
+  text-align: center; 
   background-color: rgb(33, 32, 31);
   border: none;
 }
