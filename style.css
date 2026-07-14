@@ -15,7 +15,7 @@ html, body {
   justify-content: center;
 }
 
-homebutton {
+button {
   font-family: 'Nunito', sans-serif;
   font-style: bold;
   color: rgb(250, 226, 145);
@@ -25,7 +25,7 @@ homebutton {
   border-width: 0rem;
 }
 
-homebutton:hover {
+button:hover {
   font-family: 'Nunito', sans-serif;
   font-style: bold;
   color: rgb(250, 226, 145);
