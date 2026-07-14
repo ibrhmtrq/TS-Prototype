@@ -13,6 +13,7 @@ html, body {
   font-size: 1rem;
   font-weight: lighter;
   border: none;
+  padding-bottom: 1vw;
 }
 .shopdirect h1{
   font-family: 'Noto Serif', serif;
