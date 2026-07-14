@@ -6,15 +6,18 @@ html, body {
   background: white;
 }
 .shopdirect {
-  font-family: 'Nunito', sans-serif;
-  font-weight: bold;
+  font-family: 'Noto Serif', serif;
   color: rgb(250, 226, 145);
   background-color: rgb(33, 32, 31);
   border: none;
 }
+.shopdirect {
+  font-family: 'Noto Serif', serif;
+  font-weight: bold;
+}
 
 .shopdirect:hover {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Noto Serif', serif;
   font-weight: bold;
   color: rgb(250, 226, 145);
   background-color: rgb(50, 50, 50);
