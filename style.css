@@ -10,13 +10,13 @@ html, body {
   color: rgb(250, 226, 145);
   text-align: center; 
   background-color: rgb(33, 32, 31);
-  font-size: small;
+  font-size: 10em;
   border: none;
 }
 .shopdirect h1{
   font-family: 'Noto Serif', serif;
   text-align: center; 
-  font-size: small;
+  font-size: 10em;
   /*font-weight: bold;*/
 }
 
