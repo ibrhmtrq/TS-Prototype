@@ -13,8 +13,8 @@ function filteradd(filterino) {
       window.location.href = 'storefront.html';
   }
   else if (filters.includes(filterino)) {
-    sessionStorage.setItem("filters", JSON.stringify(filters));
     filters.splice(filters.indexOf(filterino), 1);
+    sessionStorage.setItem("filters", JSON.stringify(filters));
   }
   console.log(filterino);
   console.log(filters);
