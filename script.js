@@ -1,5 +1,9 @@
 var filters = [];
 var merchList = document.querySelectorAll(".merch");
+function navHome() {
+  window.location.href = 'index.html';
+  filters = [];
+}
 function filteradd(filterino) {
   const filters = JSON.parse(sessionStorage.getItem("filters")) || [];
   if (!filters.includes(filterino)) {
