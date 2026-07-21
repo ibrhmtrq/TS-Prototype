@@ -3,6 +3,7 @@ var merchList = document.querySelectorAll(".merch");
 function navHome() {
   window.location.href = 'index.html';
   filters = [];
+  console.log("running nav");
 }
 function filteradd(filterino) {
   const filters = JSON.parse(sessionStorage.getItem("filters")) || [];
