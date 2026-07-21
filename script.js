@@ -5,20 +5,31 @@ function navHome() {
   filters = [];
   console.log("running nav");
 }
+// function filteradd(filterino) {
+//   const filters = JSON.parse(sessionStorage.getItem("filters")) || [];
+//   if (!filters.includes(filterino)) {
+//       filters.push(filterino);
+//       sessionStorage.setItem("filters", JSON.stringify(filters));
+//       window.location.href = 'storefront.html';
+//   }
+//   else if (filters.includes(filterino)) {
+//     filters.splice(filters.indexOf(filterino), 1);
+//     sessionStorage.setItem("filters", JSON.stringify(filters));
+//   }
+//   console.log(filterino);
+//   console.log(filters);
+// }
 function filteradd(filterino) {
   const filters = JSON.parse(sessionStorage.getItem("filters")) || [];
-  if (!filters.includes(filterino)) {
-      filters.push(filterino);
-      sessionStorage.setItem("filters", JSON.stringify(filters));
-      window.location.href = 'storefront.html';
-  }
-  else if (filters.includes(filterino)) {
-    filters.splice(filters.indexOf(filterino), 1);
-    sessionStorage.setItem("filters", JSON.stringify(filters));
-  }
+  // if (!filters.includes(filterino)) {
+  filters.push(filterino);
+  sessionStorage.setItem("filters", JSON.stringify(filters));
+  window.location.href = 'storefront.html';
+  // }
   console.log(filterino);
   console.log(filters);
 }
+
 function qualifyItems(item) {
   const filters = JSON.parse(sessionStorage.getItem("filters")) || [];
   for (var i = 0; i < merchList.length; i++) {
