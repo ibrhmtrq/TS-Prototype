@@ -24,6 +24,7 @@ function qualifyItems(item) {
          merchList[i].style.display = "none";
         }
       console.log(merchList[i]);
+      //recommitt
     } 
   }
 }
