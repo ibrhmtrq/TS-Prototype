@@ -36,6 +36,8 @@ function qualifyItems(item) {
     merchList[i].style.display = "block";
     for (var j = 0; j < filters.length; j++) {
       if (merchList[i].dataset.list.contains(filters[j]) == False)
+      console.log(merchList[i]);
+      console.log(filters[j]);
         {
          merchList[i].style.display = "none";
         }
