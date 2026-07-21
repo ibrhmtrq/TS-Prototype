@@ -19,10 +19,10 @@ function qualifyItems(item) {
   for (var i = 0; i < merchList.length; i++) {
     merchList[i].style.display = "block";
     for (var j = 0; j < filters.length; j++) {
-      // if (merchList[i].List.indexOf(filters[j]) == -1)
-      // {
-      //   merchList[i].style.display = "none";
-      // }
+      if (merchList[i].dataset.list.contains(filters[j]) == False)
+        {
+         merchList[i].style.display = "none";
+        }
       console.log(merchList[i];
     } 
   }
