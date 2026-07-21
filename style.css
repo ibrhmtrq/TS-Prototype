@@ -34,7 +34,7 @@ html, body {
   display: grid;
   grid-template-columns: repeat(auto-fill, 2in);
   padding: 0.125in;
-  column-gap: 0.125in;
+  gap: 0.125in;
   justify-content: left;
 }
 .merchandise div {
