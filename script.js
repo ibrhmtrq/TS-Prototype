@@ -51,6 +51,7 @@ function qualifyItems() {
 
         }
       else {
+        merchList[i].style.display = "block";
         console.log("start else (show) analysis");
         console.log(merchList[i]);
         console.log(filters[j]);
@@ -60,7 +61,7 @@ function qualifyItems() {
         console.log("end else (show) analysis");
       }
       // console.log(merchList[i]);
-      //recommitt4
+      //recommitt0
     } 
   }
 }
