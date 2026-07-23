@@ -62,6 +62,7 @@ function qualifyItems() {
       }
       // console.log(merchList[i]);
       //recommitt0
+      //doublerecom
     } 
   }
 }
