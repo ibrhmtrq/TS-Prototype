@@ -24,11 +24,13 @@ function filteradd(filterino) {
   filters = (filterino);
   sessionStorage.setItem("filters", JSON.stringify(filters));
   window.location.href = 'storefront.html';
+  qualifyItems
   console.log(filterino);
   console.log(filters);
+  qualifyItems();
 }
 
-function qualifyItems(item) {
+function qualifyItems() {
   const filters = JSON.parse(sessionStorage.getItem("filters")) || [];
   for (var i = 0; i < merchList.length; i++) {
     merchList[i].style.display = "block";
