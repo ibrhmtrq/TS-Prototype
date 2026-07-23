@@ -40,6 +40,7 @@ function qualifyItems() {
     for (var j = 0; j < filters.length; j++) {
       if (!merchList[i].dataset.list.includes(filters[j]))
         {
+        merchList[i].style.backgroundColor = "Coral";
         merchList[i].style.display = "none";
         console.log("start true (hide) analysis");
         console.log(merchList[i]);
@@ -51,6 +52,7 @@ function qualifyItems() {
 
         }
       else {
+        merchList[i].style.backgroundColor = "CornflowerBlue";
         merchList[i].style.display = "block";
         console.log("start else (show) analysis");
         console.log(merchList[i]);
