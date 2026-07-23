@@ -21,11 +21,9 @@ function navHome() {
 // }
 function filteradd(filterino) {
   const filters = JSON.parse(sessionStorage.getItem("filters")) || [];
-  if (!filters.includes(filterino)) {
-    filters.push(filterino);
-    sessionStorage.setItem("filters", JSON.stringify(filters));
-    window.location.href = 'storefront.html';
-  }
+  filters = (filterino);
+  sessionStorage.setItem("filters", JSON.stringify(filters));
+  window.location.href = 'storefront.html';
   console.log(filterino);
   console.log(filters);
 }
