@@ -68,3 +68,8 @@ function qualifyItems() {
     } 
   }
 }
+document.addEventListener("DOMContentLoaded", function () {
+    if (document.querySelector(".merchandise")) {
+        qualifyItems();
+    }
+});
