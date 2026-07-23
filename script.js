@@ -36,31 +36,31 @@ function qualifyItems() {
   // console.log(merchList);
   for (var i = 0; i < merchList.length; i++) {
     merchList[i].style.display = "block";
+    merchList[i].style.display = "block";
     // console.log(merchList[i]);
     for (var j = 0; j < filters.length; j++) {
       if (!merchList[i].dataset.list.includes(filters[j]))
         {
-        merchList[i].style.backgroundColor = "Coral";
+        // merchList[i].style.backgroundColor = "Coral";
         merchList[i].style.display = "none";
-        console.log("start true (hide) analysis");
-        console.log(merchList[i]);
-        console.log(filters[j]);
-        console.log(merchList[i].dataset.list);
-        console.log(merchList[i].dataset.list.includes(filters[j]));
-        console.log(merchList[i].style.display);
-        console.log("end true (hide) analysis");
+        // console.log("start true (hide) analysis");
+        // console.log(merchList[i]);
+        // console.log(filters[j]);
+        // console.log(merchList[i].dataset.list);
+        // console.log(merchList[i].dataset.list.includes(filters[j]));
+        // console.log(merchList[i].style.display);
+        // console.log("end true (hide) analysis");
 
         }
       else {
-        merchList[i].style.backgroundColor = "CornflowerBlue";
-        merchList[i].style.display = "block";
-        console.log("start else (show) analysis");
-        console.log(merchList[i]);
-        console.log(filters[j]);
-        console.log(merchList[i].dataset.list);
-        console.log(merchList[i].dataset.list.includes(filters[j]));
-        console.log(merchList[i].style.display);
-        console.log("end else (show) analysis");
+        // merchList[i].style.backgroundColor = "CornflowerBlue";
+        // console.log("start else (show) analysis");
+        // console.log(merchList[i]);
+        // console.log(filters[j]);
+        // console.log(merchList[i].dataset.list);
+        // console.log(merchList[i].dataset.list.includes(filters[j]));
+        // console.log(merchList[i].style.display);
+        // console.log("end else (show) analysis");
       }
       // console.log(merchList[i]);
       //recommitt0
