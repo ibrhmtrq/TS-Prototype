@@ -25,35 +25,38 @@ function filteradd(filterino) {
   filters.push(filterino);
   sessionStorage.setItem("filters", JSON.stringify(filters));
   window.location.href = 'storefront.html';
-  console.log(filterino);
-  console.log(filters);
+  // console.log(filterino);
+  // console.log(filters);
   qualifyItems();
 }
 
 function qualifyItems() {
   filters = JSON.parse(sessionStorage.getItem("filters")) || [];
   var merchList = document.querySelectorAll(".merchandise div");
-  console.log(merchList);
+  // console.log(merchList);
   for (var i = 0; i < merchList.length; i++) {
     merchList[i].style.display = "block";
-    console.log(merchList[i]);
+    // console.log(merchList[i]);
     for (var j = 0; j < filters.length; j++) {
       if (!merchList[i].dataset.list.includes(filters[j]))
         {
-        console.log(merchList[i]);
-        console.log(filters[j]);
-        console.log(filters);
-        merchList[i].style.display = "none";
-        }
-      else {
-        console.log("start else analysis");
+        console.log("start true (hide) analysis");
         console.log(merchList[i]);
         console.log(filters[j]);
         console.log(merchList[i].dataset.list);
         console.log(merchList[i].dataset.list.includes(filters[j]));
-        console.log("end else analysis");
+        console.log("end true (hide) analysis");
+        merchList[i].style.display = "none";
+        }
+      else {
+        console.log("start else (show) analysis");
+        console.log(merchList[i]);
+        console.log(filters[j]);
+        console.log(merchList[i].dataset.list);
+        console.log(merchList[i].dataset.list.includes(filters[j]));
+        console.log("end else (show) analysis");
       }
-      console.log(merchList[i]);
+      // console.log(merchList[i]);
       //recommitt3
     } 
   }
