@@ -41,6 +41,7 @@ function qualifyItems() {
         {
         console.log(merchList[i]);
         console.log(filters[j]);
+        console.log(filters);
         merchList[i].style.display = "none";
         }
       console.log(merchList[i]);
