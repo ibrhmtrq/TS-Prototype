@@ -31,8 +31,10 @@ function filteradd(filterino) {
 
 function qualifyItems() {
   filters = JSON.parse(sessionStorage.getItem("filters")) || [];
+  console.log(merchList);
   for (var i = 0; i < merchList.length; i++) {
     merchList[i].style.display = "block";
+    console.log(merchList[i]);
     for (var j = 0; j < filters.length; j++) {
       if (merchList[i].dataset.list.contains(filters[j]) == False)
       console.log(merchList[i]);
