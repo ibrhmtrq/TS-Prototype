@@ -45,8 +45,16 @@ function qualifyItems() {
         console.log(filters);
         merchList[i].style.display = "none";
         }
+      else {
+        console.log("start else analysis");
+        console.log(merchList[i]);
+        console.log(filters[j]);
+        console.log(merchList[i].dataset.list);
+        console.log(merchList[i].dataset.list.includes(filters[j]));
+        console.log("end else analysis");
+      }
       console.log(merchList[i]);
-      //recommitt2
+      //recommitt3
     } 
   }
 }
