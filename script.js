@@ -20,7 +20,7 @@ function navHome() {
 //   console.log(filters);
 // }
 function filteradd(filterino) {
-  let filters = JSON.parse(sessionStorage.getItem("filters")) || [];
+  filters = JSON.parse(sessionStorage.getItem("filters")) || [];
   filters = (filterino);
   sessionStorage.setItem("filters", JSON.stringify(filters));
   window.location.href = 'storefront.html';
@@ -30,7 +30,7 @@ function filteradd(filterino) {
 }
 
 function qualifyItems() {
-  let filters = JSON.parse(sessionStorage.getItem("filters")) || [];
+  filters = JSON.parse(sessionStorage.getItem("filters")) || [];
   for (var i = 0; i < merchList.length; i++) {
     merchList[i].style.display = "block";
     for (var j = 0; j < filters.length; j++) {
