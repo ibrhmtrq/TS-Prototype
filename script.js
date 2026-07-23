@@ -21,7 +21,8 @@ function navHome() {
 // }
 function filteradd(filterino) {
   filters = JSON.parse(sessionStorage.getItem("filters")) || [];
-  filters = [filterino];
+  filters = [];
+  filters.push(filterino);
   sessionStorage.setItem("filters", JSON.stringify(filters));
   window.location.href = 'storefront.html';
   console.log(filterino);
