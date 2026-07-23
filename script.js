@@ -1,5 +1,5 @@
 var filters = [];
-var merchList = document.querySelectorAll(".merch");
+var merchList = document.querySelectorAll(".merchandise div");
 function navHome() {
   window.location.href = 'index.html';
   filters = [];
