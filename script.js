@@ -24,7 +24,6 @@ function filteradd(filterino) {
   filters = (filterino);
   sessionStorage.setItem("filters", JSON.stringify(filters));
   window.location.href = 'storefront.html';
-  qualifyItems
   console.log(filterino);
   console.log(filters);
   qualifyItems();
