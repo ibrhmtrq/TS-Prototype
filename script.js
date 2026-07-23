@@ -27,7 +27,7 @@ function filteradd(filterino) {
   window.location.href = 'storefront.html';
   // console.log(filterino);
   // console.log(filters);
-  qualifyItems();
+  //qualifyItems();
 }
 
 function qualifyItems() {
