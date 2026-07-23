@@ -47,6 +47,7 @@ function qualifyItems() {
         console.log(merchList[i].dataset.list.includes(filters[j]));
         console.log("end true (hide) analysis");
         merchList[i].style.display = "none";
+        console.log(merchList[i].style.display);
         }
       else {
         console.log("start else (show) analysis");
