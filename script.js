@@ -37,14 +37,14 @@ function qualifyItems() {
     merchList[i].style.display = "block";
     console.log(merchList[i]);
     for (var j = 0; j < filters.length; j++) {
-      if (merchList[i].dataset.list.contains(filters[j]) == False)
-      console.log(merchList[i]);
-      console.log(filters[j]);
+      if (!merchList[i].dataset.list.includes(filters[j]))
         {
-         merchList[i].style.display = "none";
+        console.log(merchList[i]);
+        console.log(filters[j]);
+        merchList[i].style.display = "none";
         }
       console.log(merchList[i]);
-      //recommitt
+      //recommitt2
     } 
   }
 }
