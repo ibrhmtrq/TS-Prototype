@@ -3,11 +3,13 @@ var merchList = document.querySelectorAll(".merchandise div");
 function navHome() {
   window.location.href = 'index.html';
   filters = [];
+  sessionStorage.setItem("filters", JSON.stringify(filters));
   console.log("running nav");
 }
 function navShop() {
   window.location.href = 'storefront.html';
   filters = [];
+  sessionStorage.setItem("filters", JSON.stringify(filters));
   console.log("running navShop");
 }
 // function filteradd(filterino) {
