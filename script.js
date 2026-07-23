@@ -40,14 +40,15 @@ function qualifyItems() {
     for (var j = 0; j < filters.length; j++) {
       if (!merchList[i].dataset.list.includes(filters[j]))
         {
+        merchList[i].style.display = "none";
         console.log("start true (hide) analysis");
         console.log(merchList[i]);
         console.log(filters[j]);
         console.log(merchList[i].dataset.list);
         console.log(merchList[i].dataset.list.includes(filters[j]));
-        console.log("end true (hide) analysis");
-        merchList[i].style.display = "none";
         console.log(merchList[i].style.display);
+        console.log("end true (hide) analysis");
+
         }
       else {
         console.log("start else (show) analysis");
@@ -55,10 +56,11 @@ function qualifyItems() {
         console.log(filters[j]);
         console.log(merchList[i].dataset.list);
         console.log(merchList[i].dataset.list.includes(filters[j]));
+        console.log(merchList[i].style.display);
         console.log("end else (show) analysis");
       }
       // console.log(merchList[i]);
-      //recommitt3
+      //recommitt4
     } 
   }
 }
