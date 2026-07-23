@@ -5,6 +5,11 @@ function navHome() {
   filters = [];
   console.log("running nav");
 }
+function navShop() {
+  window.location.href = 'storefront.html';
+  filters = [];
+  console.log("running navShop");
+}
 // function filteradd(filterino) {
 //   const filters = JSON.parse(sessionStorage.getItem("filters")) || [];
 //   if (!filters.includes(filterino)) {
