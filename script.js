@@ -31,6 +31,7 @@ function filteradd(filterino) {
 
 function qualifyItems() {
   filters = JSON.parse(sessionStorage.getItem("filters")) || [];
+  var merchList = document.querySelectorAll(".merchandise div");
   console.log(merchList);
   for (var i = 0; i < merchList.length; i++) {
     merchList[i].style.display = "block";
