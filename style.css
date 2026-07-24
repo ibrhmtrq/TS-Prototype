@@ -43,6 +43,12 @@ html, body {
 .check {
   accent-color: rgb(255,203,31);
   font-family: 'Enriqueta', serif;
+  color: black;
+}
+.check input{
+  accent-color: rgb(255,203,31);
+  font-family: 'Enriqueta', serif;
   color: white;
+  background-color: blue;
 }
 
