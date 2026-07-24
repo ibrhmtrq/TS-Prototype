@@ -31,14 +31,14 @@ html, body {
 }
 .merchandise {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 2in);
+  grid-template-columns: repeat(auto-fill, 3in);
   padding: 0.125in;
   gap: 0.125in;
   justify-content: left;
 }
 .merchandise div {
   background-color: blue;
-  height: 3in
+  height: 4in
 }
 
 
