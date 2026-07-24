@@ -43,11 +43,11 @@ html, body {
 .check {
   accent-color: rgb(255,203,31);
   font-family: 'Cal Sans', sans-serif;
+  font-weight: 400;
   color: black;
 }
 .check input{
   accent-color: rgb(255,203,31);
-  font-family: 'Cal Sans', sans-serif;
   color: white;
   background-color: blue;
 }
