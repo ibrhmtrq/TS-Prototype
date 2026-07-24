@@ -41,7 +41,7 @@ html, body {
   height: 4in
 }
 .check {
-  background-color: blue;
+  accent-color: rgb(255,203,31);
   font-family: 'Enriqueta', serif;
   color: white;
 }
