@@ -40,5 +40,9 @@ html, body {
   background-color: blue;
   height: 4in
 }
-
+.check {
+  background-color: blue;
+  font-family: 'Enriqueta', serif;
+  color: white;
+}
 
